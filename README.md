@@ -13,12 +13,7 @@ git clone https://github.com/tddinh/hf-recipes-demo.git
 npm install
 ```
 
-3. Run the back-end mock server
-```
-npm run server
-```
-
-4. Run the dev server
+3. Run the dev server
 ```
 npm start
 ```
@@ -41,7 +36,9 @@ View in browser: [http://localhost:8000/](http://localhost:8000/)
 - React SPA
 - React Router for routing
 - Redux to control the state of the application
-- Ratings and Favorite system
+- Recipes ratings and favorite functionality
+- Grid System
+- Endpoints to request the recipe data
 - Project full linted with eslint
 - Webpack to control all the tooling
 
