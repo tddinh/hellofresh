@@ -1,0 +1,69 @@
+.ingredients-list {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  padding-top: 1.2em;
+  margin-bottom: 20px;
+  .ingredient-item {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    margin-top: 20px;
+    margin-right: 1%;
+    width: 110px;
+    .ingredient-item--image {
+      width: 50px;
+      height: 50px;
+    }
+    .ingredient-item--type {
+      width: 85%;
+      font-size: 14px;
+      word-break: break-word;
+      word-wrap: break-word;
+      margin: 0px;
+      line-height: 1.2;
+    }
+  }
+}
+
+
+.allergens-list {
+  padding-top: 1em;
+
+  .allergens-label {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .allergens-item--container {
+    margin-left: -2px;
+    display: flex;
+    .allergen-item {
+      padding: 3px;
+      display: inline-flex;
+      margin: 2px;
+      border: solid 1px #f8b74c;
+      font-size: 0.95em;
+      width: 20%;
+      .allergen-item--image {
+        height: 100%;
+        width: 30%;
+      }
+      .allergen-item--type {
+        padding-left: 10px;
+        line-height: 2rem;
+      }
+    }
+  }
+}

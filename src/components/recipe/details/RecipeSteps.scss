@@ -1,0 +1,51 @@
+.instruction-steps {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .instruction-steps-image {
+    min-width: 25em;
+    max-width: 35em;
+    margin: 0 2em;
+  }
+
+  .instruction-steps-content {
+    margin: 0.5em;
+    padding-left: 1.5em;
+
+    .content-header {
+      font-weight: 500;
+      color: #0F346C;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #e6e6e6;
+      min-height: 26px;
+      line-height: 26px;
+      overflow: hidden;
+      .steps-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #50d691;
+        float: left;
+        width: auto;
+      }
+      .steps-number {
+        background-color: #50d691;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+        padding: 7px 9px;
+        width: 28px;
+        margin-right: 10px;
+        float: left;
+        border-radius: 50px;
+      }
+    }
+
+    .steps-text {
+      width: 20em;
+      padding-left: 2em;
+    }
+  }
+}

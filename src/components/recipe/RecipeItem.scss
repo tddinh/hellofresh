@@ -1,0 +1,91 @@
+.menu-item {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+
+  .menu-item-top {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+    padding: 5px 20px 5px 20px;
+    box-sizing: border-box;
+    .item-top-details {
+      margin-top: 5px;
+      line-height: 1.4em;
+      margin-bottom: 0px;
+      .item-top-details-clickable {
+        display: block;
+        text-decoration: none;
+        color: #4C4C4C;
+        .item-top-details-name {
+          font-size: 16px;
+          font-weight: 600;
+          margin: 0px;
+          line-height: 1.8em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-family: Ubuntu;
+        }
+      }
+    }
+    .item-top-details-description {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 14px;
+      line-height: 1.6em;
+      margin-top: 0px;
+      margin-bottom: 12px;
+      min-height: 25px;
+      font-family: Ubuntu;
+    }
+  }
+
+  .menu-item-content {
+    .item-content-details {
+      display: block;
+      text-decoration: none;
+      .item-content-image {
+        top: 50%;
+        bottom: 0px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        display: block;
+        height: auto;
+        left: 0px;
+        position: absolute;
+        width: 100%;
+        opacity: 1;
+        transition: opacity 0.3s linear;
+        -webkit-transition: opacity 0.3s linear;
+        -moz-transition: opacity 0.3s linear;
+      }
+    }
+    .content-block {
+      padding-bottom: 56.25%;
+      width: 100%;
+      position: relative;
+      cursor: pointer;
+    }
+  }
+
+  .menu-item-bottom {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+    padding: 20px 8px 5px 8px;
+    box-sizing: border-box;
+    .oven-instruction {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 1.43;
+      color: #b0aba3;
+      font-weight: 300;
+      margin: 0px;
+    }
+  }
+
+
+}
