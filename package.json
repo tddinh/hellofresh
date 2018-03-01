@@ -1,15 +1,14 @@
 {
-  "name": "hellofresh-test",
+  "name": "hf-recipes-demo",
   "version": "1.0.0",
   "description": "Front-end Developer Test",
   "main": "index.js",
   "scripts": {
-    "dev": "parallelshell \"npm run lint:tools\" \"npm run open:src\"",
+    "start": "parallelshell \"npm run lint:tools\" \"npm run open:src\"",
     "open:src": "babel-node tools/srcServer.js",
     "lint:tools": "eslint webpack.config.js tools",
     "clean-dist": "npm run remove-dist && mkdir dist",
-    "remove-dist": "node_modules/.bin/rimraf ./dist",
-    "start": "node server.js",
+    "remove-dist": "rimraf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:watch": "npm run test -- --watch"
   },
@@ -22,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/Candidate-Testing/tddinh-frontend-test/issues"
   },
-  "homepage": "https://github.com/Candidate-Testing/tddinh-frontend-test#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
